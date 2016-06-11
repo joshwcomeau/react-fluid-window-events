@@ -1,0 +1,49 @@
+{
+  "name": "react-fluid-window-events",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Joshua Comeau",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.9.2",
+    "carte-blanche": "^0.1.3",
+    "chai": "^3.5.0",
+    "chai-equal-jsx": "^1.0.9",
+    "express": "^4.13.4",
+    "html-webpack-plugin": "^2.20.0",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2",
+    "react-addons-test-utils": "^15.1.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "peerDependencies": {
+    "react": "0.14.x || ^15.0.0",
+    "react-dom": "0.14.x || ^15.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0",
+      "react"
+    ]
+  }
+}
