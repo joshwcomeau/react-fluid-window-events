@@ -45,5 +45,8 @@
       "stage-0",
       "react"
     ]
+  },
+  "dependencies": {
+    "lodash.includes": "^4.1.3"
   }
 }
